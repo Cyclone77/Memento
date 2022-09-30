@@ -13,7 +13,7 @@
  * A 窗口的域名是<http://example.com:8080>，以下是 A 窗口的 script 标签下的代码：
  */
 
-var popup = window.open(...popup details...);
+var popup = window.open("http://example.org");
 
 // 假设当前页面没有改变 location，这条语句会成功添加 message 到发送队列中去（targetOrigin 设置对了）
 popup.postMessage("hello there!", "http://example.org");
