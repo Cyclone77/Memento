@@ -16,21 +16,23 @@ npx create-react-app my-app-name
 yarn create react-app my-app-name
 ```
 
-### 使用[vite](https://cn.vitejs.dev/)打包工具
-
-``` bash
-yarn create vite my-react-app --template react
-```
-
 ### 建立Typescript项目
 
 ```bash
 yarn create react-app my-react-app --template typescript
 ```
 
+### 使用[vite](https://cn.vitejs.dev/)打包工具
 
+``` bash
+yarn create vite my-react-app --template react
+```
 
+### 使用[vite](https://cn.vitejs.dev/)打包工具，建立Typescript项目
 
+``` bash
+yarn create vite my-react-app --template react-ts
+```
 
 ## 项目搭建
 
