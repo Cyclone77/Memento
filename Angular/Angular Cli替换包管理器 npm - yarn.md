@@ -1,5 +1,15 @@
 # Angular Cliz中替换包管理器 npm - yarn
 
+## angular 建立项目
+
+``` bash
+ng --skip-install --routing=true --style=scss new PROJECT-NAME
+
+ng --skip-install --routing=true --style=scss --package-manager=yarn new PROJECT-NAME
+```
+
+
+
 ## 全局替换Angualr CLI的包管理工具
 
 执行以下的命令
@@ -21,3 +31,4 @@ ng new --skip-install hello-world-app
 ```
 
 建立angular项目的时候不安装包，后面用yarn安装
+
